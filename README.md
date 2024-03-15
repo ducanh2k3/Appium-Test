@@ -1,16 +1,19 @@
-Swag Labs Automation Project
+# Swag Labs Automation Project
+
 This project contains automated tests for the Swag Labs website. It utilizes Selenium WebDriver with Java to automate interactions with the website.
 
-Prerequisites
+
+## Prerequisites
+
 Before running the tests, ensure you have the following installed:
+- Java Development Kit (JDK) 8 or higher
+- Selenium WebDriver
+- WebDriver compatible with your browser (e.g., ChromeDriver)
+- 
+You can install the JDK from [here](https://www.oracle.com/java/technologies/javase-downloads.html). To install Selenium WebDriver, you can use Maven or Gradle.
 
-Java Development Kit (JDK) 8 or higher
-Selenium WebDriver
-WebDriver compatible with your browser (e.g., ChromeDriver)
-You can install the JDK from here. To install Selenium WebDriver, you can use Maven or Gradle.
-
-For Maven, add the following dependency to your pom.xml:
-
+For Maven, add the following dependency to your `pom.xml`:
+```xml
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
@@ -104,3 +107,10 @@ Steps:
 Expected result:
 #1 The website should navigate to Home Page
 #2 The src of all images should be the same.
+
+
+
+
+
+
+
