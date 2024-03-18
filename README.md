@@ -1,6 +1,6 @@
 # Api Demo App Automation Project
 
-This project contains automated tests for the Api Demo App. It utilizes Appium WebDriver with Java to automate interactions with the app.
+This project contains automated tests for the Api Demo App. It utilizes Appium Framework with Java to automate interactions with the app.
 
 
 ## Prerequisites
